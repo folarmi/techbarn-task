@@ -1,0 +1,28 @@
+.about {
+  background-color: #191919;
+  color: #ffffff;
+  padding-left: 2rem;
+}
+
+.about-flex {
+  display: flex;
+}
+
+.about-flex p {
+  max-width: 20rem;
+}
+
+.about-flex img {
+  object-fit: contain;
+  height: 18rem;
+  width: 15rem;
+  margin-top: -3rem;
+}
+
+.about-rest p {
+  font-size: 12px;
+  font-weight: 400;
+  max-width: 12rem;
+  margin-top: -5rem;
+  margin-right: 1rem;
+}
