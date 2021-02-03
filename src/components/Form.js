@@ -1,7 +1,7 @@
 import "../css/Form.css";
 import collaborate from "../images/collaborate.png";
 import play from "../images/play.png";
-import arrow from "../images/arrow.png";
+// import arrow from "../images/arrow.png";
 
 function Form() {
   return (
