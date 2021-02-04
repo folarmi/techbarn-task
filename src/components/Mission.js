@@ -1,5 +1,5 @@
 import "../css/Mission.css";
-import arrow from "../images/arrow.png";
+// import arrow from "../images/arrow.png";
 
 function Mission() {
   return (
