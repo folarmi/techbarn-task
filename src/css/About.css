@@ -2,6 +2,7 @@
   background-color: #191919;
   color: #ffffff;
   padding-left: 2rem;
+  margin-top: 3rem;
 }
 
 .about-flex {
@@ -25,6 +26,17 @@
   max-width: 12rem;
   margin-top: -5rem;
   margin-right: 1rem;
+}
+
+#orange-about {
+  margin-left: -8rem;
+}
+
+.orange-about {
+  background-color: #ffbe3f;
+  width: 10.3rem;
+  height: 0.5rem;
+  margin-top: -1.1rem;
 }
 
 @media (min-width: 1200px) {

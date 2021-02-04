@@ -35,6 +35,7 @@ footer span {
   justify-content: space-around;
   padding: 0;
   margin-left: -0.9rem;
+  margin-bottom: 2rem;
 }
 
 footer li {
@@ -80,5 +81,9 @@ footer li {
 
   .copyright p {
     max-width: 8rem;
+  }
+
+  #footer-border {
+    margin-left: -1rem;
   }
 }

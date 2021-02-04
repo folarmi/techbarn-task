@@ -1,5 +1,7 @@
 import "../css/About.css";
 import phillip from "../images/phillip.png";
+import arrow from "../images/whiteArrow.png";
+
 function About() {
   return (
     <div className="about">
@@ -17,6 +19,14 @@ function About() {
           General of the state of Croatia.
         </p>
       </section>
+
+      <section className="agenda">
+        <p className="mission-agenda" id="orange-about">
+          Learn more about Damir
+        </p>
+        <img src={arrow} alt="arrow" />
+      </section>
+      <div className="orange-about"></div>
     </div>
   );
 }

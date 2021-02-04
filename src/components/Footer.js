@@ -26,6 +26,8 @@ function Footer() {
           <li>Store</li>
         </ul>
 
+        <hr className="ash-border" id="footer-border" />
+
         <section className="social-media">
           <p>Follow us on social media</p>
 

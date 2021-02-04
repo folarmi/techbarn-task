@@ -29,8 +29,8 @@
 
 .agenda {
   display: flex;
-  border-bottom: 12px solid #ffbe3f;
   margin-left: 8rem;
+  margin-top: -1rem;
 }
 
 .agenda img {
@@ -38,9 +38,17 @@
 }
 
 .mission-agenda {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
   margin-right: 0.4rem;
+}
+
+.orange-mission {
+  background-color: #ffbe3f;
+  width: 9rem;
+  height: 0.5rem;
+  margin-left: 8rem;
+  margin-top: -1rem;
 }
 
 @media (min-width: 1200px) {

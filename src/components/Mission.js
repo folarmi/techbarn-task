@@ -1,5 +1,5 @@
 import "../css/Mission.css";
-// import arrow from "../images/arrow.png";
+import arrow from "../images/arrow.png";
 
 function Mission() {
   return (
@@ -19,10 +19,11 @@ function Mission() {
         the bottom line of the society. Everyone would be involved.
       </p>
 
-      {/* <section className="agenda">
+      <section className="agenda">
         <p className="mission-agenda">Read Damir’s agenda</p>
         <img src={arrow} alt="arrow" />
-      </section> */}
+      </section>
+      <div className="orange-mission"></div>
     </div>
   );
 }
