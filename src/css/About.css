@@ -55,4 +55,12 @@
     max-width: 20rem;
     padding: 1rem;
   }
+
+  #orange-about {
+    margin-left: -23rem;
+  }
+
+  .orange-about {
+    margin-left: 17rem;
+  }
 }

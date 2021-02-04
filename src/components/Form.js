@@ -122,11 +122,11 @@ function Form() {
             required
           ></textarea>
 
-          <section className="agenda">
+          <section className="agenda" id="message-agenda">
             <button type="submit" className="mission-agenda">
-              send message
+              Send message
             </button>
-            {/* <img src={arrow} alt="arrow" /> */}
+            <img src={arrow} alt="arrow" />
           </section>
           <div className="orange-about" id="orange-form"></div>
         </form>

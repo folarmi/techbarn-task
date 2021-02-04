@@ -80,6 +80,20 @@ button {
   margin-top: -2.6rem;
 }
 
+#message-agenda {
+  margin-top: -3rem;
+}
+
+#orange-form {
+  margin-top: -4.3rem;
+  width: 7.3rem;
+}
+
+#message-agenda img {
+  width: 30%;
+  margin-top: 4rem;
+}
+
 #email-agenda img {
   width: 10%;
   margin-top: 1.5rem;
@@ -134,4 +148,34 @@ button {
   .form-extra input {
     width: 60%;
   }
+
+  button {
+    margin-left: -40.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  #orange-form {
+    margin-left: -0.1rem;
+  }
+
+  #email-agenda {
+    margin-bottom: 4rem;
+  }
+
+  #subscribe {
+    margin-left: -40rem;
+  }
+
+  #orange-form-two {
+    margin-left: -0.2rem;
+  }
+
+  #email-agenda img {
+    width: 5%;
+  }
+
+  /* #orange-form-two {
+    margin-top: -0.5rem;
+  } */
 }
