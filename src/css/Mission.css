@@ -1,5 +1,5 @@
 .mission {
-  margin: 8rem 1rem 0 2rem;
+  margin: 6rem 1rem 0 2rem;
   background-color: #ffffff;
 }
 
@@ -41,4 +41,25 @@
   font-size: 18px;
   font-weight: 700;
   margin-right: 0.4rem;
+}
+
+@media (min-width: 1200px) {
+  .mission {
+    margin: 6rem 1rem 0 7.2rem;
+  }
+
+  .small-text p {
+    margin-right: 25rem;
+  }
+
+  .big-text p {
+    font-size: 60px;
+    max-width: 35rem;
+  }
+
+  .mission-text {
+    max-width: 24rem;
+    margin-left: 40rem;
+    margin-top: -2rem;
+  }
 }

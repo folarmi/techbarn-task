@@ -5,7 +5,7 @@ function About() {
     <div className="about">
       <section className="about-flex">
         <div className="big-text">
-          <p>About Damir Gojak</p>
+          <p id="damir">About Damir Gojak</p>
         </div>
         <img src={phillip} alt="phillip" />
       </section>

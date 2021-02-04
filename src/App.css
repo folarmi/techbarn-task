@@ -6,6 +6,10 @@ body {
 }
 
 /* Home Styles */
+nav {
+  display: none;
+}
+
 .banner {
   opacity: 1;
   padding: 1.5rem;
@@ -69,9 +73,54 @@ body {
 
 .card-text span {
   color: #ffbe3f;
+  margin: 0;
 }
 
 .card-image img {
   object-fit: contain;
   margin-top: 1rem;
+}
+
+@media (min-width: 1200px) {
+  nav {
+    display: block;
+    color: #ffffff;
+  }
+
+  nav ul {
+    display: flex;
+    padding: 0;
+    margin-left: 52rem;
+  }
+
+  nav li {
+    font-size: 15px;
+    font-weight: 700;
+    list-style-type: none;
+    margin-right: 1rem;
+  }
+
+  .banner-flex {
+    display: flex;
+  }
+
+  .banner-flex h1 {
+    font-size: 60px;
+    margin: 4rem 0 12rem 6rem;
+    max-width: 25rem;
+  }
+
+  .banner-circle {
+    margin-top: 6rem;
+    margin-left: -5rem;
+  }
+
+  .banner-card {
+    width: 80%;
+    margin-left: 7.5rem;
+  }
+
+  .card-text p {
+    max-width: 16rem;
+  }
 }

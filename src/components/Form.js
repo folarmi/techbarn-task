@@ -16,7 +16,7 @@ function Form() {
 
       <section className="form-flex">
         <div className="small-text">
-          <p>Get involved</p>
+          <p id="involved">Get involved</p>
         </div>
         <div className="big-text">
           <p>Be Part of Our Community</p>

@@ -55,3 +55,30 @@ footer li {
   margin-right: 1rem;
   object-fit: contain;
 }
+
+@media (min-width: 1200px) {
+  footer {
+    padding-left: 7.5rem;
+    display: flex;
+  }
+
+  .copyright {
+    margin-right: 25rem;
+  }
+
+  .social-media p {
+    margin-left: -0.8rem;
+  }
+
+  .footer-flex li {
+    margin-right: 1.5rem;
+  }
+
+  .social-flex {
+    margin-left: -1rem;
+  }
+
+  .copyright p {
+    max-width: 8rem;
+  }
+}

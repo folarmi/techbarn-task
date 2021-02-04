@@ -19,10 +19,10 @@ function Mission() {
         the bottom line of the society. Everyone would be involved.
       </p>
 
-      <section className="agenda">
+      {/* <section className="agenda">
         <p className="mission-agenda">Read Damir’s agenda</p>
         <img src={arrow} alt="arrow" />
-      </section>
+      </section> */}
     </div>
   );
 }

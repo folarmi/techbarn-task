@@ -66,3 +66,44 @@
   margin-bottom: 1rem;
   width: 82%;
 }
+
+@media (min-width: 1200px) {
+  .form {
+    margin: 3rem 7.5rem;
+  }
+
+  .form img {
+    margin-bottom: 0;
+  }
+
+  .play {
+    width: 10%;
+    height: 10%;
+    margin: -15rem 0 0 28rem;
+  }
+
+  .form-flex {
+    margin-top: 12rem;
+  }
+
+  #involved {
+    margin-right: 15rem;
+  }
+
+  .message-form {
+    margin-left: 20.5rem;
+  }
+
+  .message-form input,
+  .message-form textarea {
+    width: 95%;
+  }
+
+  .form-extra {
+    margin-top: 4rem;
+  }
+
+  .form-extra input {
+    width: 60%;
+  }
+}

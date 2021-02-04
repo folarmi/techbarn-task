@@ -26,3 +26,21 @@
   margin-top: -5rem;
   margin-right: 1rem;
 }
+
+@media (min-width: 1200px) {
+  .about-flex {
+    padding-left: 5.5rem;
+  }
+
+  #damir {
+    font-size: 60px;
+    max-width: 35rem;
+    margin-right: 37rem;
+  }
+
+  .about-rest p {
+    margin-left: 16rem;
+    max-width: 20rem;
+    padding: 1rem;
+  }
+}
