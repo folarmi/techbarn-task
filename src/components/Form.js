@@ -17,18 +17,25 @@ function Form() {
   const postMessage = (contactDetails) => {
     const token = "c7dd2554181c877c85d76430a59ff27c93286414";
 
-    const config = {
+    // const config = {
+    //   headers: {
+    //     Accept: "application/json",
+    //     Authorization: `Bearer ${token}`,
+    //   },
+    // };
+
+    axios({
+      method: "POST",
+      url:
+        "https://cors-anywhere.herokuapp.com/https://workwise.ng/api/savemessage",
       headers: {
+        "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
-        Accept: "*/*",
       },
-    };
-    axios
-      .post("https://workwise.ng/api/savemessage", contactDetails, config)
-      .then((result) => {
-        console.log(result);
-      });
-    console.log(contactDetails);
+      data: contactDetails,
+    }).catch((error) => {
+      console.log(error.response.request._response);
+    });
   };
 
   const handleChange = (e) => {
@@ -160,28 +167,3 @@ function Form() {
 }
 
 export default Form;
-
-// const BaseInput = (props) => {
-//   const {
-//     id,
-//     name,
-//     value,
-//     type = "text",
-//     handleChange,
-//     placeholder,
-//     label,
-//   } = props;
-//   return (
-//     <>
-//       <label htmlFor={id}>{label}</label>
-//       <input
-//         type={type}
-//         name={name}
-//         id={id}
-//         placeholder={placeholder}
-//         value={value}
-//         onChange={handleChange}
-//       />
-//     </>
-//   );
-// };
